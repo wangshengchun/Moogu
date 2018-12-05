@@ -24,4 +24,10 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         Log.d("MainActivity","MainActiivty");
     }
+
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
 }
