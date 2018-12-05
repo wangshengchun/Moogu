@@ -22,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+        Log.d("MainActivity","MainActiivty");
     }
 }
